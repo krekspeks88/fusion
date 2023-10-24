@@ -1,0 +1,32 @@
+@import 'base/reset';
+@import 'base/variables';
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+@import 'block/promo';
+@import 'block/header';
+@import 'block/logo';
+@import 'block/menu';
+@import 'block/buttons';
+@import 'block/approach';
+@import 'block/label';
+@import 'block/titles';
+@import 'block/perspective';
+@import 'block/items';
+@import 'block/expertise';
+@import 'block/works';
+@import 'block/business';
+@import 'block/feedback';
+@import 'block/forms';
+@import 'block/footer';

@@ -1,0 +1,12 @@
+.label {
+    color: $orange;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    &_left {
+        text-align: left;
+    }
+    &_white {
+        color: rgba(255, 255, 255, 0.75);
+    }
+}

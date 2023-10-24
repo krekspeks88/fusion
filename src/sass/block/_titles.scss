@@ -1,0 +1,14 @@
+.title {
+    margin-top: 20px;
+    color: $main-color;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 160%;
+    &_left {
+        text-align: left;
+    }
+    &_white {
+        color: #fff;
+    }
+}

@@ -1,0 +1,27 @@
+.button {
+    width: 180px;
+    height: 55px;
+    border-radius: 30px;
+    border: none;
+    background: var(--3, linear-gradient(110deg, #FE614D 4.82%, #FFA544 101.13%));
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    &_business {
+        width: 195px;
+        margin-top: 40px;
+    }
+    &_submit {
+        width: 150px;
+        height: 55px;
+        margin-top: 46px;
+        padding: 15px 26px;
+        transition: 0.5s;
+        &:active {
+            color: #fff;
+            background: #D9D9D9;
+        }
+    }
+}

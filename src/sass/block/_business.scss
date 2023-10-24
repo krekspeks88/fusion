@@ -1,0 +1,31 @@
+.business {
+    position: relative;
+    min-height: 500px;
+    padding: 155px 0 217px;
+    &__video {
+        &-bg {
+            position: absolute;
+            top: -115px;
+            left: -5px;
+            z-index: -1;
+        }
+        iframe {
+            position: absolute;
+            top: 220px;
+            left: 100px;
+            border-radius: 45px;
+        }
+    }
+    &__box {
+        width: 575px;
+        position: absolute;
+        right: 0;
+    }
+    &__descr {
+        margin-top: 25px;
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160.5%;
+    }
+}

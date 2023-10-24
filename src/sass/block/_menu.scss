@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 570px;
+    a {
+        display: block;
+        color: $main-color;
+        font-size: 21px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

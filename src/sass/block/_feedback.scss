@@ -1,0 +1,19 @@
+.feedback {
+    padding-bottom: 109px;
+    min-height: 760px;
+    position: relative;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 160px;
+    }
+    &__img {
+        display: block;
+    }
+    hr {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background: rgba(43, 43, 43, 0.25);
+    }
+}
